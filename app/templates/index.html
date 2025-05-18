@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détection de Spam</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Détection de Spam</h1>
+    </header>
+    <main>
+        <section>
+            <textarea id="inputText" placeholder="Entrez votre message ici..." rows="10" cols="50"></textarea>
+            <br>
+            <button onclick="sendData()">Vérifier</button>
+        </section>
+        <section>
+            <p id="result"></p>
+            <!-- Ajout de l'élément pour afficher le score -->
+            <p id="score"></p>
+        </section>
+    </main>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

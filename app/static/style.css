@@ -1,0 +1,72 @@
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style pour le titre */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style pour la zone de texte */
+#inputText {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    font-size: 16px;
+    resize: none; /* Empêche le redimensionnement de la zone de texte */
+}
+
+/* Style pour le bouton */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Effet de survol pour le bouton */
+button:hover {
+    background-color: #218838;
+}
+
+/* Style pour le résultat */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+}
+/* Style pour le score */
+#score {
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+}
+/* Style pour le message d'erreur */
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Style pour le message de succès */
+.success {
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+}
